@@ -8,7 +8,7 @@ function App() {
   const [house,setHouse] = useState(2);
   const ornaments = 'shokto mati Ring'
   return (
-    <RingContext.Provider value = {ornaments}>
+    <RingContext.Provider value = {[ornaments, house]}>
       <div className="App">
       <button onClick={() => setHouse(house+1)}>Buy a new house</button>
        <GrandFather house= {house} ornaments={ornaments}></GrandFather>
