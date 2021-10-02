@@ -7,7 +7,7 @@ const MySelf = (props) => {
         <div>
             <h2>MySelf</h2>
             <small>House :{house}</small>
-            <Special  ></Special>
+            <Special></Special>
         </div>
     );
 };
